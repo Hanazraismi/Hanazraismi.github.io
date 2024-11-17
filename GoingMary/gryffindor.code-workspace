@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../gryffindor"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "StrawHatSailing"
+	}
+}
