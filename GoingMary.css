@@ -22,48 +22,6 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-<<<<<<< HEAD:GoingMary/GoingMary.css
-.navbar-judul {
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 7%;
-    background-color: #e8e1c8;
-    border-bottom: 1px solid black;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 9999;
-    position: fixed;
-    transition: all 300ms ease-in-out;
-    height: 80px;
-
-}
-
-.navbar-judul a {
-    font-family: arial, sans-serif;
-    color: #d73732;
-    font-size: 1rem;
-    text-decoration: none;
-
-}
-
-.navbartoogle a {
-    color: #d73732;
-    text-decoration: none;
-    margin: 0 1rem;
-    display: inline-block;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    
-}
-
-=======
->>>>>>> 8e161459f1754eec9a3d281de999bbeea868ad7d:GoingMary.css
 .navbar{
     list-style-type: none;
     margin: 0;
@@ -122,24 +80,6 @@ nav {
     margin: 10px 0;
     border: 1px solid #e8e1c8;
     border-radius: 4px;
-}
-
-.produk {
-    text-align: center;
-}
-
-.produk button {
-    padding: 10px 20px;
-    background-color: #d73732;
-    color: #e8e1c8;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    margin-top: 10px;
-}
-
-.produk button:hover {
-    background-color: #d37e7b;
 }
 .input[type="submit"][type="submit"] {
     background-color: #000;

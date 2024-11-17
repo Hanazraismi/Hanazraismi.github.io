@@ -12,14 +12,36 @@
 <body class="body">
 
 
+<nav id="navbar">
+    <div class="navbar-judul">
+        <a href="#"> <h1> ONE PIECE</h1> </a>
+    </div>
+ <div class="navbartoogle">
+            <a href="#Storyline">Storyline</a>
+            <a href="#Watch">Watch</a>
+            <a href="#Character">Character</a>
+            <a href="#Join" >Join</a>
+          </div>
+</nav>
 
- <ul class="navbar">
-            <li><a href="#Storyline">Storyline</a></li>
-            <li><a href="#Watch">Watch</a></li>
-            <li><a href="#Character">Character</a></li>
-            <li ><a href="#Join" >Join</a></li>
-          </ul>
+<script type="text/javascript">
+    var lastScrollTop = 0;
+        navbar = document.getElementById("navbar");
+    window.addEventListener("scroll", function(){
+        var scrollTop = window.pageYOffset || document
+            .documentElement.scrollTop;
+        if (scrollTop > lastScrollTop){
+            navbar.style.top='-80px';
+        } else {
+            navbar.style.top="0";
+        }
+            lastScrollTop = scrollTop;
+    })
 
+</script>
+<br>
+<br>
+<br>
  <!--Ini Header-->         
 <header class="header">
     <h1 class="h1"> <img src="image/kapal.png" height="150px" width="150px"> <br> GOING MARY's VOYAGE </h1>
@@ -30,9 +52,11 @@
     <div class="content">
        <section id="Storyline">
         <h2 class="h2">What is One Piece?</h2>
-            <p class="p"> <a href="https://www.instagram.com/eiichiro.oda/" target="_blank">  <img src="image/eiichiro.jpg" height="200px" width="250px"></a> <br>One Piece is a Japanese manga and anime series created by Eiichiro Oda. It was first serialized in 
-            Shueisha's Weekly Shōnen Jump magazine on July 22, 1997, and the anime adaptation followed shortly 
-            thereafter. It has since become one of the most popular and long-running anime series of all time, 
+            <p class="p"> <a href="https://www.instagram.com/eiichiro.oda/" target="_blank">  
+            <img src="image/eiichiro.jpg" height="200px" width="250px"></a> <br>One Piece is a Japanese manga 
+            and anime series created by Eiichiro Oda. It was first serialized in Shueisha's Weekly Shōnen Jump 
+            magazine on July 22, 1997, and the anime adaptation followed shortly thereafter. It has since become
+             one of the most popular and long-running anime series of all time, 
             with millions of fans around the world. The series is known for its adventurous storyline, unique 
             characters, and deep lore.</p>
 
@@ -53,6 +77,13 @@
             <p class="p">The Straw Hat Pirates' journey begins at Reverse Mountain, where they enter the Grand Line. Their route takes them through various islands such as Whiskey Peak, Little Garden, Drum Island, and Alabasta. After overcoming numerous challenges and enemies, they continue to navigate through islands like Skypiea, Water 7, and Enies Lobby, eventually reaching Sabaody Archipelago.</p>
             <p class="p">Later in the series, they travel through the New World, encountering powerful enemies in Fishman Island, Punk Hazard, Dressrosa, and Whole Cake Island, before finally heading toward the dangerous territory of Wano Country. Their goal is to reach the final island, Raftel, where the One Piece treasure is rumored to be hidden.</p>
         <br>
+
+        <div class="produk">
+            <p id="book1">BUKU YANG BISA DIBACA</p>
+            <button type="button" onclick='document.getElementById("book1")
+            .innerHTML= "Tersedia"'>BOOKING</button>
+        </div>
+
         <div class="list">
         <h2>The Straw Hat Pirates' journey through Paradise First Half of the Grand Line:</h2>
             <ol >
